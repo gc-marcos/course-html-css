@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/chip.ico" type="image/x-icon">
-    <title></title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/chip.ico" type="image/x-icon" />
+    <title>Videos com HTML5</title>
+  </head>
+  <body>
+    <h1>Inserindos Videos Localmente</h1>
+    <p>Este video está no meu proprio servidor.</p>
+    <video
+      poster="img/mt_img.jpg"
+      width="600px"
+      height="350px"
+      controls
+      autoplay
+      loop
+    >
+      <source src="midia/mt1.m4v" type="video/m4s" />
+      <source src="midia/mt2.webm" type="video/webm" />
+      <source src="midia/mt3.mp4" type="video/mp4" />
+      <p>Seu navegador não tem compatibilidade para reprodizir esse video.</p>
+    </video>
+    <h1>Inserindo Video do YouTube</h1>
+    <iframe
+      width="600"
+      height="350"
+      src="https://www.youtube.com/embed/58ujlki8Vyw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    >
+    </iframe>
+    <h1>Inserindo Video do Vimeo</h1>
+    <iframe
+      src="https://player.vimeo.com/video/33263526?h=bf6b246e74&color=ff0179&byline=0"
+      width="600"
+      height="350"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
 </html>
