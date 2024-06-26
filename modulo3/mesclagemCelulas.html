@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maesclagem de Células</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body > caption {
+        
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: solid 1px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+    }
+</style>
+<body>
+    <caption>Mesclagem de Células</caption>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td colspan="2">M</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

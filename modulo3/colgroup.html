@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com COLGROUP</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+    }
+    th, td {
+        border: solid 1px;
+        padding: 10px;
+    }
+    col.cNome, col.cIdade {
+        background-color: rgb(217, 242, 247);
+    } 
+    .amarela {
+        background-color: rgba(255, 255, 0, 0.528);
+    }
+</style>
+<body>
+
+    <table>
+        <colgroup>
+            <col class="cNome">
+            <col class="amarela" span="2">
+            <col class="cIdade">
+            <col class="cProfissao>=">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr> <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
