@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data e Hora</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<body>
+        <h1>Teste de Formulário</h1>
+        <p>
+            <label for="idNome">Nome: </label>
+            <input type="text" name="nome" id="idNome" required maxlength="30" placeholder="Nome" autocomplete="name">
+        </p>
+        <p>
+            <label for="idMedia">Média</label>
+            <input type="number" name="media" id="idMedia" required min="0" max="10" placeholder="0 a 10" step="0.1" value="5">
+        </p>
+        <p>
+            <label for="idLetivo">Período Letivo</label>
+            <input type="month" name="letivo" id="idLetivo" value="2024-10">
+        </p>
+        <p>
+            <label for="idProva">Dia da Prova</label>
+            <input type="datetime" name="prova" id="idProva" value="2024-10-30">
+        </p>
+        <p>
+            <label for="idHora">Horŕio da Prova</label>
+            <input type="time" name="Hora" id="idHora">
+        </p>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="LIMPAR">
+</body>
+</html>
