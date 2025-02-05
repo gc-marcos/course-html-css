@@ -17,7 +17,7 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login {
-        width: 80vw;
+        width: 700px;
         height: 290px;
     }
     section#login > div#imagem {
@@ -37,7 +37,7 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login {
-        width: 950px;
+        width: 980px;
         height: 310px;
     }
     section#login > div#imagem {
